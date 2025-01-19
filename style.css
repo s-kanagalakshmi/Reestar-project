@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+img {
+    height: 300px;
+    width: 200px
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-one__navbar {
+    display: inline-block;
+
+}
+
+.section-two {
+    text-align: center;
+}
+
+.section-two__firstimage,
+.section-two__secondimage,
+.section-two__thirdimage,
+.section-two__fourthimage {
+    display: inline-block;
+    width: 200px;
+    margin-top: 10px;
+    border: solid 2px black;
+}
+
+.section-two__firstimage_button,
+.section-two__secondimage_button,
+.section-two__thirdimage_button,
+.section-two__fourthimage_button {
+    background-color: black;
+    color: white;
+    width: 100px;
+    margin-left: 50px;
+    /* margin-bottom: 10px; */
+}
+
+.section-two__firstimage_title,
+.section-two__secondimage_title,
+.section-two__thirdimage_title,
+.section-two__fourthimage_title {
+    font-weight: bolder;
+}
+
+.section-two__firstimage_desc,
+.section-two__secondimage_desc,
+.section-two__thirdimage_desc,
+.section-two__fourthimage_desc {
+    padding: 5px;
+}
+
+.section-three {
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.section-three__details {
+    display: inline-block;
+}
+
+.section-three__button {
+    width: 440px;
+    margin-left: 440px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    padding: 5px 5px;
+}
